@@ -1,7 +1,13 @@
 # SpecSAR-Former
 
-The core network proposed in this study is SpecSAR-Former. 
-The corresponding configuration file for this network is segformer_lg_unbalanced.py.
+Network Architecture
+Core Model & Configuration
+Proposed Network: SpecSAR-Former
+
+Configuration File: segformer_lg_unbalanced.py
+
+Architecture Overview
+The overall architecture of our proposed SpecSAR-Former network is illustrated in the figure below. The network employs a dual-branch structure to process multispectral and SAR data separately, leveraging our custom-designed DMEM and MMAM modules for cross-modal information interaction and fusion.
 
 ![SpecSAR-Former Network Architecture](Network.png)
 
